@@ -3,6 +3,7 @@
     --dark-grayish-blue: hsl(232, 10%, 55%);
     --dark-desaturated-cyan: hsl(167, 40%, 24%);
     --dark-moderate-cyan: hsl(168, 34%, 41%);
+    --soft-cyan: hsl(167, 44%, 70%);
     --grayish-blue: hsl(210, 4%, 67%);
     --soft-red: hsl(7, 99%, 70%);
     --very-dark-desaturated-blue: hsl(212, 27%, 19%);
@@ -35,6 +36,10 @@
     font-family: "Fraunces";
     src: url("./fonts/Fraunces_144pt-Black.ttf") format("truetype");
     font-weight: 900;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
@@ -99,4 +104,29 @@ ul {
 .testimonials__position {
     color: var(--grayish-blue);
     font-size: .8em;
+}
+
+.footer {
+    align-items: center;
+    background-color: var(--soft-cyan);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    padding: 3.5em 1.5em;
+}
+
+.footer__menu {
+    display: flex;
+    gap: 2.4em;
+}
+
+.footer__menu-link {
+    color: var(--dark-desaturated-cyan);
+    font-size: .8em;
+}
+
+.footer__social {
+    display: flex;
+    gap: 1.2em;
+    padding-top: 2em;
 }
