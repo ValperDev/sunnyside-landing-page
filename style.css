@@ -106,6 +106,10 @@ ul {
     font-size: .8em;
 }
 
+.gallery__list {
+    display: flex;
+}
+
 .footer {
     align-items: center;
     background-color: var(--soft-cyan);
@@ -128,5 +132,5 @@ ul {
 .footer__social {
     display: flex;
     gap: 1.2em;
-    padding-top: 2em;
+    padding-top: 2.5em;
 }
