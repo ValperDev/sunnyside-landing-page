@@ -113,13 +113,18 @@ ul {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.services__image {
+    height: 100%;
+    width: 100%;
+}
+
 .service__container {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
     gap: 1.8em;
     justify-content: center;
-    padding: 7em;
+    padding: 5.5em;
 }
 
 .services__title,
@@ -191,26 +196,35 @@ ul {
     background-color: var(--soft-red);
 }
 
+.testimonials {
+    padding-block: 8em;
+}
+
 .testimonials__title {
     color: var(--grayish-blue);
     font-family: "Fraunces", sans-serif;
+    font-size: 1.2em;
+    font-weight: 900;
     letter-spacing: .2em;
+    padding-bottom: 3em;
     text-align: center;
     text-transform: uppercase;
 }
 
 .testimonials__list {
     display: flex;
+    gap: 2em;
 }
 
 .testimonials__item {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 3em;
 }
 
 .testimonials__image-container {
-    height: 75px;
+    height: 65px;
 }
 
 .testimonials__image {
@@ -219,6 +233,7 @@ ul {
 }
 
 .testimonials__quote {
+    color: var(--very-dark-grayish-blue);
     line-height: 1.6;
     text-align: center;
 }
@@ -233,6 +248,7 @@ ul {
     font-family: "Fraunces", sans-serif;
     font-size: 1.2em;
     font-weight: 900;
+    padding-bottom: .5em;
 }
 
 .testimonials__position {
